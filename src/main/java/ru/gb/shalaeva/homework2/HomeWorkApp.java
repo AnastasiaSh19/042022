@@ -22,6 +22,7 @@ public class HomeWorkApp {
         } else {
             System.out.println("is a LeapYear");
         }
+        task6();
     }
 
     //task1
@@ -73,4 +74,19 @@ public class HomeWorkApp {
             return false;
     }
 
+    public static void task6 () {
+        for (int i = 0; i < 6; i++) {
+            for (int j = 0; j < 6; j++) {
+                if ((i + j) % 2 == 0) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print("0 ");
+                }
+            }
+            System.out.println();
+        }
+    }
 }
+
+
+
