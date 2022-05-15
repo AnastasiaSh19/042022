@@ -12,7 +12,6 @@ public class HomeWork5 {
         for (Employee employee : empCorp)
             if (employee.getAge()>40)
                 System.out.println(employee);
-
     }
 }
 class Employee {
